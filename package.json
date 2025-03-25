@@ -23,13 +23,13 @@
     "@vuepress/markdown": "2.0.0-rc.20",
     "@vuepress/plugin-shiki": "2.0.0-rc.80",
     "@vuepress/theme-default": "2.0.0-rc.80",
-    "autoprefixer": "^10.4.18",
-    "firebase-tools": "^13.32.0",
+    "autoprefixer": "^10.4.21",
+    "firebase-tools": "^13.35.1",
     "markdown-it-attrs": "^4.3.1",
     "nodemon": "^3.1.9",
     "pascal-case": "^4.0.0",
     "postcss": "^8.5.3",
-    "postcss-cli": "^11.0.0",
+    "postcss-cli": "^11.0.1",
     "postcss-import": "^16.1.0",
     "snake-case": "^4.0.0",
     "standard-version": "^9.5.0",
@@ -37,6 +37,6 @@
     "yaml": "^2.7.0"
   },
   "optionalDependencies": {
-    "@rollup/rollup-linux-x64-gnu": "^4.34.8"
+    "@rollup/rollup-linux-x64-gnu": "^4.37.0"
   }
 }
