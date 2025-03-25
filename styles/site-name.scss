@@ -1,11 +1,11 @@
 span.vp-site-name:after {
     content: '.io';
-    @apply text-4xl text-gray-500 font-light !important;
+    @apply text-4xl! text-gray-500! font-light!;
 }
 
 span.vp-site-name:before {
     content: 'docs.';
-    @apply text-4xl text-gray-500 font-light !important;
+    @apply text-4xl! text-gray-500! font-light!;
 }
 
 html.dark {
@@ -19,6 +19,6 @@ html.dark {
 }
 
 span.vp-site-name {
-    @apply text-4xl text-gray-900 font-bold -top-1 !important;
+    @apply text-4xl! text-gray-900! font-bold! -top-1!;
     margin-left: 0.55rem !important;
 }

@@ -17,26 +17,28 @@
   "author": "Stefan Pfaffel",
   "license": "MIT",
   "devDependencies": {
-    "@discue/ui-components": "^0.49.0",
-    "@discue/vuepress-plugin-outline": "^0.5.0",
+    "@discue/ui-components": "^1.0.0",
+    "@discue/vuepress-plugin-outline": "^0.6.0",
     "@vuepress/bundler-vite": "^2.0.0-rc.20",
     "@vuepress/markdown": "2.0.0-rc.20",
     "@vuepress/plugin-shiki": "2.0.0-rc.80",
     "@vuepress/theme-default": "2.0.0-rc.80",
-    "autoprefixer": "^10.4.21",
     "firebase-tools": "^13.35.1",
     "markdown-it-attrs": "^4.3.1",
     "nodemon": "^3.1.9",
     "pascal-case": "^4.0.0",
     "postcss": "^8.5.3",
     "postcss-cli": "^11.0.1",
-    "postcss-import": "^16.1.0",
     "snake-case": "^4.0.0",
     "standard-version": "^9.5.0",
-    "tailwindcss": "^3.4.17",
+    "tailwindcss": "^4.0.16",
     "yaml": "^2.7.0"
   },
   "optionalDependencies": {
     "@rollup/rollup-linux-x64-gnu": "^4.37.0"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.0.16",
+    "@tailwindcss/vite": "^4.0.16"
   }
 }

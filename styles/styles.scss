@@ -11,13 +11,35 @@
 @import './sidebar.scss';
 @import './site-name.scss';
 @import './theme.scss';
+@import 'tailwindcss';
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@source '../docs/**/*.{vue,js,ts,jsx,tsx,scss,md}';
+@source '../node_modules/@discue/ui-components/dist/ui.umd.js';
+@source '../node_modules/@discue/ui-components/dist/internal/internal.umd.js';
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+  The default border color has changed to `currentColor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+
+    *,
+    ::after,
+    ::before,
+    ::backdrop,
+    ::file-selector-button {
+        border-color: var(--color-gray-200, currentColor);
+    }
+}
 
 h2 {
-    @apply mb-4 !important;
+    @apply mb-4!;
 }
 
 html aside.vp-sidebar {
@@ -30,7 +52,7 @@ html aside.vp-sidebar {
 }
 
 .sidebar-item.sidebar-heading {
-    @apply text-xl font-bold !important;
+    @apply text-xl! font-bold!;
 }
 
 img.vp-site-logo {
@@ -45,7 +67,7 @@ img.vp-site-logo {
 
 .home #main-title:after {
     content: '.io';
-    @apply text-5xl text-gray-500 font-light !important;
+    @apply text-5xl! text-gray-500! font-light!;
 }
 
 a.header-anchor::before {
@@ -62,7 +84,7 @@ html .vp-hero-action-button:not(.primary):hover {
 }
 
 .page-nav {
-    @apply border-none !important;
+    @apply border-none!;
 
     .inner {
         border-top: 0 !important;
@@ -112,4 +134,16 @@ html .vp-hero-action-button:not(.primary):hover {
 
     --search-item-text-color: var(--c-text-lighter);
     --search-item-focus-bg-color: var(--c-bg-light);
+}
+
+[vp-content] ul {
+    list-style: disc;
+}
+
+[vp-content] h1:first-child + p {
+    margin-top: 1rem !important;
+}
+
+[vp-content] p {
+    margin-top: 1rem;
 }

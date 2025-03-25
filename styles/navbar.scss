@@ -24,7 +24,7 @@
 
 .vp-navbar-item {
     .vp-navbar-dropdown {
-        @apply shadow-md p-0 text-lg !important;
+        @apply shadow-md! p-0! text-lg!;
 
         .vp-navbar-dropdown-item {
             @apply p-1.5;
@@ -43,7 +43,7 @@
 
 .vp-navbar-item>a:hover,
 .vp-navbar-item>a.route-link-active {
-    @apply text-gray-900 dark:text-gray-400 border-b-4 border-gray-900 pb-2 -translate-y-0.5 !important;
+    @apply text-gray-900! dark:text-gray-400! border-b-4! border-gray-900! pb-2! -translate-y-0.5!;
 }
 
 html.dark {
