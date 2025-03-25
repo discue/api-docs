@@ -3,23 +3,23 @@
         @apply font-bold;
 
         &.get {
-            @apply bg-green-200 align-baseline !important;
+            @apply bg-green-200! align-baseline!;
         }
 
         &.put {
-            @apply bg-sky-300 align-baseline !important;
+            @apply bg-sky-300! align-baseline!;
         }
 
         &.patch {
-            @apply bg-yellow-300 align-baseline !important;
+            @apply bg-yellow-300! align-baseline!;
         }
 
         &.post {
-            @apply bg-orange-300 align-baseline !important;
+            @apply bg-orange-300! align-baseline!;
         }
 
         &.delete {
-            @apply bg-red-400 align-baseline !important;
+            @apply bg-red-400! align-baseline!;
         }
     }
 }
@@ -27,23 +27,23 @@
 .auto-link:not(.active) {
     span.vp-badge {
         &.get {
-            @apply bg-white border-2 border-solid border-green-200 align-baseline !important;
+            @apply bg-green-200! align-baseline!;
         }
 
         &.put {
-            @apply bg-white border-2 border-solid border-sky-300 align-baseline !important;
+            @apply bg-sky-300! align-baseline!;
         }
 
         &.patch {
-            @apply bg-white border-2 border-solid border-yellow-300 align-baseline !important;
+            @apply bg-yellow-300! align-baseline!;
         }
 
         &.post {
-            @apply bg-white border-2 border-solid border-orange-300 align-baseline !important;
+            @apply bg-orange-300! align-baseline!;
         }
 
         &.delete {
-            @apply bg-white border-2 border-solid border-red-400 align-baseline !important;
+            @apply bg-red-400! align-baseline!;
         }
     }
 }

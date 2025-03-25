@@ -4,7 +4,7 @@
     --c-brand-light: #111827;
 
 
-    --c-bg: theme('colors.gray.50');
+    --c-bg: var(--color-gray-50);
     --c-bg-light: #f3f4f5;
     --c-bg-lighter: #eeeeee;
     --c-bg-navbar: var(--c-bg);
@@ -12,7 +12,7 @@
     --c-bg-arrow: #cccccc;
 
 
-    --c-text: theme('colors.black');
+    --c-text: var(--color-black);
     --c-text-accent: var(--c-brand);
     --c-text-light: #3a5169;
     --c-text-lighter: #4e6e8e;
@@ -41,7 +41,7 @@
     --c-danger-text-accent: var(--c-text);
     --c-details-bg: #eeeeee;
 
-    --c-badge-tip: theme('colors.lime.400');
+    --c-badge-tip: var(--color-lime-400);
     --c-badge-warning: var(--c-warning);
     --c-badge-danger: var(--c-danger);
 
@@ -56,7 +56,7 @@
     --code-ln-wrapper-width: 3.5rem;
 
 
-    --font-family: theme('fontFamily.sans');
+    --font-family: var(--font-sans);
     --font-family-code: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 
 
@@ -75,13 +75,13 @@
     --vp-c-accent-bg: var(--c-brand);
     --vp-c-border: var(--c-border);
 
-    --copy-code-c-text: theme('colors.gray.400');
-    --code-c-text: theme('colors.gray.400')
+    --copy-code-c-text: var(--color-gray-400);
+    --code-c-text: var(--color-gray-400)
 }
 
 html.dark {
 
-    --c-brand: theme('colors.lime.500');
+    --c-brand: var(--color-lime-500);
     --c-brand-light: #AFE81A;
 
 
@@ -111,7 +111,7 @@ html.dark {
     --c-danger-text: #3a0000;
     --c-details-bg: #323843;
 
-    --code-bg-color: theme('colors.gray.800');
+    --code-bg-color: var(--color-gray-800);
     --code-hl-bg-color: rgba(0, 0, 0, 0.66);
     --code-ln-color: #9e9e9e;
     --code-ln-wrapper-width: 3.5rem;
