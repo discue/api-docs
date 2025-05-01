@@ -12,6 +12,10 @@ updates:
         patterns:
           - "vuepress*"
           - "@vuepress*"
+      tailwind:
+        patterns: 
+          - "tailwindcss*"
+          - "@tailwindcss*"
 
   - package-ecosystem: github-actions
     assignees:
