@@ -38,6 +38,6 @@
     "yaml": "^2.8.1"
   },
   "optionalDependencies": {
-    "@rollup/rollup-linux-x64-gnu": "^4.52.3"
+    "@rollup/rollup-linux-x64-gnu": "^4.52.5"
   }
 }
