@@ -19,25 +19,25 @@
   "devDependencies": {
     "@discue/ui-components": "^1.7.0",
     "@discue/vuepress-plugin-outline": "^0.6.0",
-    "@tailwindcss/postcss": "^4.1.16",
-    "@tailwindcss/vite": "^4.1.16",
-    "@vuepress/bundler-vite": "^2.0.0-rc.24",
+    "@tailwindcss/postcss": "^4.1.17",
+    "@tailwindcss/vite": "^4.1.17",
+    "@vuepress/bundler-vite": "^2.0.0-rc.26",
     "@vuepress/markdown": "2.0.0-rc.24",
     "@vuepress/plugin-shiki": "2.0.0-rc.112",
     "@vuepress/theme-default": "2.0.0-rc.112",
-    "firebase-tools": "^14.23.0",
+    "firebase-tools": "^14.26.0",
     "markdown-it-attrs": "^4.3.1",
-    "nodemon": "^3.1.10",
+    "nodemon": "^3.1.11",
     "pascal-case": "^4.0.0",
     "postcss": "^8.5.6",
     "postcss-cli": "^11.0.1",
     "sass-embedded": "^1.93.3",
     "snake-case": "^4.0.0",
     "standard-version": "^9.5.0",
-    "tailwindcss": "^4.1.14",
-    "yaml": "^2.8.1"
+    "tailwindcss": "^4.1.17",
+    "yaml": "^2.8.2"
   },
   "optionalDependencies": {
-    "@rollup/rollup-linux-x64-gnu": "^4.52.5"
+    "@rollup/rollup-linux-x64-gnu": "^4.53.5"
   }
 }
