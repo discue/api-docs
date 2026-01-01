@@ -25,7 +25,7 @@
     "@vuepress/markdown": "2.0.0-rc.26",
     "@vuepress/plugin-shiki": "2.0.0-rc.120",
     "@vuepress/theme-default": "2.0.0-rc.120",
-    "firebase-tools": "^14.26.0",
+    "firebase-tools": "^15.1.0",
     "markdown-it-attrs": "^4.3.1",
     "nodemon": "^3.1.11",
     "pascal-case": "^4.0.0",
