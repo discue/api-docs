@@ -27,7 +27,7 @@
     "@vuepress/theme-default": "2.0.0-rc.120",
     "firebase-tools": "^15.1.0",
     "markdown-it-attrs": "^4.3.1",
-    "nodemon": "^3.1.11",
+    "nodemon": "^3.1.14",
     "pascal-case": "^4.0.0",
     "postcss": "^8.5.6",
     "postcss-cli": "^11.0.1",
