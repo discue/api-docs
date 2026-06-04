@@ -19,8 +19,8 @@
   "devDependencies": {
     "@discue/ui-components": "^1.7.0",
     "@discue/vuepress-plugin-outline": "^0.6.0",
-    "@tailwindcss/postcss": "^4.2.4",
-    "@tailwindcss/vite": "^4.2.4",
+    "@tailwindcss/postcss": "^4.3.0",
+    "@tailwindcss/vite": "^4.3.0",
     "@vuepress/bundler-vite": "^2.0.0-rc.27",
     "@vuepress/markdown": "2.0.0-rc.27",
     "@vuepress/plugin-shiki": "2.0.0-rc.126",
