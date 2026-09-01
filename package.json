@@ -29,7 +29,7 @@
     "markdown-it-attrs": "^5.0.0",
     "nodemon": "^3.1.11",
     "pascal-case": "^4.0.0",
-    "postcss": "^8.5.24",
+    "postcss": "^8.5.26",
     "postcss-cli": "^11.0.1",
     "sass-embedded": "^1.100.0",
     "snake-case": "^4.0.0",
